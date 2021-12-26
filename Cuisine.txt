@@ -1,5 +1,9 @@
 Ranger
 Essuyer table
+Lancer le lave vaisselle si plein
+Laver le lave vaisselle
+Désinfecter l'évier
+Essuyer plaques et four
 Nettoyer la table et comptoir 
 Balayer
 Vider la poubelle
