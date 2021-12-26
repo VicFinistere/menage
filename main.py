@@ -10,7 +10,8 @@ room = input("Quelle pièce souhaitez-vous remettre en ordre ?")
 print(open(room + '.txt', mode='r',encoding="utf-8").read())
 
 # Sélectionner l'action parmi la liste proposée de la salle 
-tts = gtts.gTTS("Bon appétit Céline ! Billy va au panier s'il te plaît!", lang="fr")
-tts.save("sound.wav")
+instruction = "En avant ta da da da da !"
+tts = gtts.gTTS(instruction, lang="fr")
+tts.save("sound.mp3")
 os.system("sound.mp3")
 
